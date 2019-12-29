@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta charset ="UTF-8">
-<title>Title of the document</title>
+<title>客戶訂貨紀錄</title>
 </head>
 
 <body>
-<h1>客戶基本資料</h1>
+<h1>客戶訂貨紀錄</h1>
 
 <form>
 	<p>身分證字號 <input type="text" name="num1" placeholder="Number1"></p>

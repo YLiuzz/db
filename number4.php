@@ -2,11 +2,11 @@
 <html>
 <head>
 <meta charset ="UTF-8">
-<title>Title of the document</title>
+<title>公司應收帳資料庫</title>
 </head>
 
 <body>
-<h1>客戶基本資料</h1>
+<h1>公司應收帳資料庫</h1>
 
 <form>
 	<p>客戶姓名 <input type="text" name="num1" placeholder="Number1"></p>
