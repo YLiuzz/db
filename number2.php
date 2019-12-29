@@ -8,7 +8,7 @@
 <body>
 <h1>客戶訂貨紀錄</h1>
 
-<form>
+<!-- <form>
 	<p>身分證字號 <input type="text" name="num1" placeholder="身分證字號"></p>
 	<p>訂貨日期 <input type="text" name="num2" placeholder="訂貨日期"></p>
 	<p>預計遞交日期 <input type="text" name="num3" placeholder="預計遞交日期"></p>
@@ -28,37 +28,44 @@
 
 	
 
-</form>
+</form> -->
 
-<?php
-	//check if submit botton has been hit
-	if (isset($_GET['submit'])) {
-		$result1 = $_GET['num1'];
-		$result2 = $_GET['num2'];
-		$operator = $_GET['operator'];
-		switch ($operator) {
-					case "None":
-						echo "Error, you need to select operator";
-						break;
-					case "Add":
-						echo $result1 + $result2;
-						break;
-					case "Subtract":
-						echo $result1 - $result2;
-						break;
-					case "Multiply":
-						echo $result1 * $result2;
-						break;
-					case "Divide":
-						echo $result1 / $result2;
-						break;		
-					
-					
-				}		
-	}
-
-?>
-	
+    <div class="col-12 form-group">
+        <p>身份證字號: <input type="text" class="form-control rounded-0 contact-input" id="data-id-number" placeholder="身份證字號"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>訂貨日期: <input type="text" class="form-control rounded-0 contact-input" id="data-order-date" placeholder="訂貨日期"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>預計遞交日期: <input type="text" class="form-control rounded-0 contact-input" id="data-pre-date" placeholder="預計遞交日期"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>實際遞交日期: <input type="text" class="form-control rounded-0 contact-input" id="data-real-data" placeholder="實際遞交日期"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>定貨品名: <input type="text" class="form-control rounded-0 contact-input" id="data-goods-name" placeholder="定貨品名"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>單位: <input type="text" class="form-control rounded-0 contact-input" id="data-unit" placeholder="單位"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>數量: <input type="text" class="form-control rounded-0 contact-input" id="data-quantity" placeholder="數量"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>單價: <input type="text" class="form-control rounded-0 contact-input" id="data-single-price" placeholder="單價"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>訂貨金額: <input type="text" class="form-control rounded-0 contact-input" id="data-order-price" placeholder="訂貨金額"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>供應商名稱: <input type="text" class="form-control rounded-0 contact-input" id="data-supplier-name" placeholder="供應商名稱"></p>
+    </div>
+    <div class="col-12 form-group">
+        <p>供應商編號: <input type="text" class="form-control rounded-0 contact-input" id="data-supplier-number" placeholder="供應商編號"></p>
+    </div>
+	<div class="col-12 form-group text-center">
+        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="sendmail">確認送出</button>
+    </div>
 
 </body>
 
