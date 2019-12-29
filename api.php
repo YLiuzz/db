@@ -1,5 +1,11 @@
 <?php
-	$a = $_POST['num1'];
-	echo $a;
-
+	foreach($_POST as $k=>$v){
+		if(gettype($v)=='array'){
+			$$k = $v;
+		}elseif($v==0 || !empty($v)){
+			$$k = addslashes(trim($v));
+		}else{
+			$$k = null;
+		}
+	}
 ?>

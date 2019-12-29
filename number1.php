@@ -53,6 +53,10 @@
 	<div class="col-12 form-group">
         <p>消費狀態: <input type="text" class="form-control rounded-0 contact-input" id="data-pay-stats" placeholder="消費狀態"></p>
     </div>
+    <div class="col-12 form-group text-center">
+        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="sendmail">確認送出</button>
+    </div>
+    
 
 
 	
