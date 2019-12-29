@@ -27,7 +27,7 @@
 </form> -->
     
     <div class="col-12 form-group">
-        <p>客戶姓名<input type="text" class="form-control rounded-0 contact-input" id="data-name" placeholder="客戶姓名"></p>
+        <p>客戶姓名: <input type="text" class="form-control rounded-0 contact-input" id="data-name" placeholder="客戶姓名"></p>
     </div>
 
 
