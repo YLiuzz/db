@@ -8,4 +8,11 @@
 			$$k = null;
 		}
 	}
+	switch ($op) {
+		case 'profile':
+			
+			break;
+		
+		
+	}
 ?>
