@@ -13,7 +13,7 @@ $(document).on('click','#sendmail',function(){
             url:"user-admin/api/api.php",
             dataType:"json",
             data:{
-                op:"sendmail",
+                op:"profile",
                 company:$('#data-company').val(),
                 name:$('#data-name').val(),
                 phone:$('#data-tel').val(),
