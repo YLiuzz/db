@@ -9,7 +9,7 @@
 <h1>客戶基本資料</h1>
 
 <form action="backstage.php" method="POST">
-	<p>客戶姓名 <input type="text" name="num1" placeholder="Number1"></p>
+	<p>客戶姓名1 <input type="text" name="num1" placeholder="Number1"></p>
 	<p>身分證字號 <input type="text" name="num2" placeholder="Number2"></p>
 	<p>電話 <input type="text" name="num3" placeholder="Number3"></p>
 	<p>住址 <input type="text" name="num4" placeholder="Number4"></p>
