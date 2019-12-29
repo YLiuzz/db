@@ -1,4 +1,5 @@
 <?php
+	include 'connect.php';
 	foreach($_POST as $k=>$v){
 		if(gettype($v)=='array'){
 			$$k = $v;

@@ -28,7 +28,6 @@
 
 	
 
-<<<<<<< HEAD
 </form> -->
 
     <div class="col-12 form-group">
@@ -68,11 +67,6 @@
         <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="sendmail">確認送出</button>
     </div>
 
-=======
-</form>
-	
-	<?php include 'script.php' ?>
->>>>>>> 97d227f3f93d9f4646dfae97979951b3fb499797
 </body>
 
 	
