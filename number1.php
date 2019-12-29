@@ -8,7 +8,7 @@
 <body>
 <h1>客戶基本資料</h1>
 
-<form action="backstage.php" method="POST">
+<!-- <form action="backstage.php" method="POST">
 	<p>客戶姓名<input type="text" name="num1" placeholder="客戶姓名"></p>
 	<p>身分證字號 <input type="text" name="num2" placeholder="身分證字號"></p>
 	<p>電話 <input type="text" name="num3" placeholder="電話"></p>
@@ -24,7 +24,11 @@
 
 	
 
-</form>
+</form> -->
+    
+    <div class="col-12 form-group">
+        <p>客戶姓名<input type="text" class="form-control rounded-0 contact-input" id="data-name" placeholder="客戶姓名"></p>
+    </div>
 
 
 	
