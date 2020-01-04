@@ -2,7 +2,7 @@
 
 
 $pdo = new PDO(
-    'mysql:host=localhost;dbname=br;',
+    'mysql:host=localhost;dbname=db;',
     'root',
     ''
 
