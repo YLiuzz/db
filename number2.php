@@ -34,13 +34,13 @@
         <p>身份證字號: <input type="text" class="form-control rounded-0 contact-input" id="data-id-number" placeholder="身份證字號"></p>
     </div>
     <div class="col-12 form-group">
-        <p>訂貨日期: <input type="text" class="form-control rounded-0 contact-input" id="data-order-date" placeholder="訂貨日期"></p>
+        <p>訂貨日期: <input type="date" class="form-control rounded-0 contact-input" id="data-order-date" placeholder="訂貨日期"></p>
     </div>
     <div class="col-12 form-group">
-        <p>預計遞交日期: <input type="text" class="form-control rounded-0 contact-input" id="data-pre-date" placeholder="預計遞交日期"></p>
+        <p>預計遞交日期: <input type="date" class="form-control rounded-0 contact-input" id="data-pre-date" placeholder="預計遞交日期"></p>
     </div>
     <div class="col-12 form-group">
-        <p>實際遞交日期: <input type="text" class="form-control rounded-0 contact-input" id="data-real-data" placeholder="實際遞交日期"></p>
+        <p>實際遞交日期: <input type="date" class="form-control rounded-0 contact-input" id="data-real-data" placeholder="實際遞交日期"></p>
     </div>
     <div class="col-12 form-group">
         <p>定貨品名: <input type="text" class="form-control rounded-0 contact-input" id="data-goods-name" placeholder="定貨品名"></p>
@@ -64,7 +64,7 @@
         <p>供應商編號: <input type="text" class="form-control rounded-0 contact-input" id="data-supplier-number" placeholder="供應商編號"></p>
     </div>
 	<div class="col-12 form-group text-center">
-        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="sendmail">確認送出</button>
+        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="send_record">確認送出</button>
     </div>
 
 </body>

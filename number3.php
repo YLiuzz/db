@@ -62,10 +62,10 @@
         <p>規格: <input type="text" class="form-control rounded-0 contact-input" id="data-specs" placeholder="規格"></p>
     </div>
 	<div class="col-12 form-group">
-        <p>進貨日期: <input type="text" class="form-control rounded-0 contact-input" id="data-buy-date" placeholder="進貨日期"></p>
+        <p>進貨日期: <input type="date" class="form-control rounded-0 contact-input" id="data-buy-date" placeholder="進貨日期"></p>
     </div>
 	<div class="col-12 form-group text-center">
-        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="sendmail">確認送出</button>
+        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="send_purchase">確認送出</button>
     </div>
 	
 

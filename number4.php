@@ -35,13 +35,13 @@
         <p>應收金額: <input type="text" class="form-control rounded-0 contact-input" id="data-expect-number" placeholder="應收金額"></p>
     </div>
 	<div class="col-12 form-group">
-        <p>應收日期: <input type="text" class="form-control rounded-0 contact-input" id="data-expect-date" placeholder="應收日期"></p>
+        <p>應收日期: <input type="date" class="form-control rounded-0 contact-input" id="data-expect-date" placeholder="應收日期"></p>
     </div>
 	<div class="col-12 form-group">
         <p>代催收金額: <input type="text" class="form-control rounded-0 contact-input" id="data-need-price" placeholder="代催收金額"></p>
     </div>
 	<div class="col-12 form-group text-center">
-        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="sendmail">確認送出</button>
+        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="send_collection">確認送出</button>
     </div>
 	
 
