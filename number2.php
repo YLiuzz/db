@@ -66,7 +66,7 @@
 	<div class="col-12 form-group text-center">
         <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="send_record">確認送出</button>
     </div>
-
+    <?php include 'script.php' ?>
 </body>
 
 	
