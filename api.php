@@ -11,9 +11,22 @@
 	}
 	switch ($op) {
 		case 'profile':
-			
+			$smit = $pdo->prepare("INSERT INTO `profile` (`name`,`id_name`,`phone`,`addr`,`age`,`job`,`first_date`,`sale_status`) VALUE (?,?,?,?,?,?,?,?)");
+			$smit->execute([$name,$id_name,$phone,$addr,$age,$job,$date,$pay]);
+			$json_array['msg']="success";
+			break;
+		case 'order':
+
+			break;
+		case 'stock':
+
+			break;
+		case 'payaccount':
+
 			break;
 		
 		
 	}
+	echo json_encode($json_array);
+
 ?>

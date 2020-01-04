@@ -1,4 +1,4 @@
-$(document).on('click','#sendmail',function(){
+$(document).on('click','#send',function(){
         $.ajax({
             type:"POST",
             url:"api.php",
@@ -6,9 +6,8 @@ $(document).on('click','#sendmail',function(){
             data:{
                 op:"profile",
                 name:$('#data-name').val(),
-                id:$('#data-id-number').val(),
+                id_name:$('#data-id-number').val(),
                 phone:$('#data-phone').val(),
-                email:$('#data-email').val(),
                 addr:$('#data-address').val(),
                 age:$('#data-age').val(),
                 date:$('#data-input-date').val(),
