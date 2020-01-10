@@ -135,3 +135,28 @@ $(document).on('click','#send_collection',function(){
         }
     });
 });
+// no.1-1
+$(document).on('click','#search',function(){
+    $.ajax({
+        type:"POST",
+        url:"api.php",
+        dataType:"json",
+        data:{
+            op:"collection",
+            id_number:$('#data-name').val(), 
+        },
+        success:function(data){
+            if(data.msg=='success'){
+                alert('送出成功');
+                location.reload();
+            }else{
+                alert(data.msg);
+                
+            }
+        },
+        error:function(jqXHR){
+            alert('送出失敗');
+            
+        }
+    });
+});
