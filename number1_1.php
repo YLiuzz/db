@@ -5,29 +5,34 @@ $res = $pdo->query("SELECT * FROM `profile` WHERE `id_name` = '{$id_name}'");
 $row = $res->fetch();
 ?>
     <div class="col-12 form-group">
-        <p>身份證字號:<?=$row['id_name']?></p>
-    </div>
-    <div class="col-12 form-group">
-        <p>客戶姓名:<?=$row['name']?> </p>
+        <p>客戶姓名: <input type="text" class="form-control rounded-0 contact-input" id="data-name" value=<?=$row['name']?>></p>
     </div>
 	<div class="col-12 form-group">
-        <p>電話:<?=$row['phone']?></p>
+        <p>身份證字號: <input type="text" class="form-control rounded-0 contact-input" id="data-id-number" value=<?=$row['id_name']?>></p>
     </div>
 	<div class="col-12 form-group">
-        <p>住址:<?=$row['addr']?> </p>
+        <p>電話: <input type="text" class="form-control rounded-0 contact-input" id="data-phone" value=<?=$row['phone']?>></p>
     </div>
 	<div class="col-12 form-group">
-        <p>年齡:<?=$row['age']?></p>
+        <p>住址: <input type="text" class="form-control rounded-0 contact-input" id="data-address" value=<?=$row['addr']?>></p>
     </div>
 	<div class="col-12 form-group">
-        <p>職業:<?=$row['job']?></p>
+        <p>年齡: <input type="text" class="form-control rounded-0 contact-input" id="data-age" value=<?=$row['age']?>></p>
     </div>
 	<div class="col-12 form-group">
-        <p>登載日期:<?=$row['first_date']?></p>
+        <p>職業: <input type="text" class="form-control rounded-0 contact-input" id="data-job" value=<?=$row['job']?>></p>
     </div>
 	<div class="col-12 form-group">
-        <p>照片:<?=$row['img']?></p>
+        <p>登載日期: <input type="date" class="form-control rounded-0 contact-input" id="data-input-date" value=<?=$row['first_date']?>></p>
     </div>
 	<div class="col-12 form-group">
-        <p>消費狀態:<?=$row['sale_status']?></p>
+        <p>照片: <input type="text" class="form-control rounded-0 contact-input" id="data-picture" value=<?=$row['img']?>></p>
+    </div>
+	<div class="col-12 form-group">
+        <p>消費狀態: <input type="text" class="form-control rounded-0 contact-input" id="data-pay-stats" value=<?=$row['sale_status']?>></p>
+    </div>
+    <div class="col-12 form-group text-center">
+        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="update">修改</button>
+    </div><div class="col-12 form-group text-center">
+        <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="update">修改狀態</button>
     </div>
