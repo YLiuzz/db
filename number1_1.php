@@ -3,6 +3,9 @@ include "connect.php";
 $id_name = $_GET['id_name'];
 $res = $pdo->query("SELECT * FROM `profile` WHERE `id_name` = '{$id_name}' AND `sale_status`='1'");
 $row = $res->fetch();
+if(!empty($row)){
+
+
 ?>
     <div class="col-12 form-group">
         <p>客戶姓名: <input type="text" class="form-control rounded-0 contact-input" id="data-name" value=<?=$row['name']?>></p>
@@ -36,5 +39,13 @@ $row = $res->fetch();
     <!-- </div><div class="col-12 form-group text-center">
         <button type="submit" class="btn btn-outline-dark-yellow rounded-0" id="update_profile_status">修改狀態</button>
     </div> -->
+<?php
+    }else{
+
+?>
+    <p>帳戶停用中</p>
+<?php
+    }
+?>
 
     <?php include 'script.php' ?>
