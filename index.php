@@ -15,6 +15,8 @@
 <a href="number3.php">公司進貨資料庫</a></br>
 <p></p>	
 <a href="number4.php">公司應收帳資料庫</a></br>
+<p></p>
+<a href="number1s.php">客戶基本資料搜尋</a></br>
 </body>
 
 	

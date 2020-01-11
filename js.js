@@ -76,7 +76,7 @@ $(document).on('click','#send_purchase',function(){
         dataType:"json",
         data:{
             op:"purchase",
-            supplier_number:"#data-supplier-name",
+            supplier_number:$('#data-supplier-name').val(),
             supplier_name:$('#data-supplier-number').val(),
             supplier_boss:$('#data-supplier-person').val(),
             product_name:$('#data-goods-name').val(),
