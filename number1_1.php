@@ -1,7 +1,7 @@
 <?php
 include "connect.php";
 $id_name = $_GET['id_name'];
-$res = $pdo->query("SELECT * FROM `profile` WHERE `id_name` = '{$id_name}'");
+$res = $pdo->query("SELECT * FROM `profile` WHERE `id_name` = '{$id_name}' AND `sale_status`='1'");
 $row = $res->fetch();
 ?>
     <div class="col-12 form-group">
