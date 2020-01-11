@@ -32,6 +32,11 @@
 			$json_array['msg']="success";
 
 			break;
+		case 'update_profile':
+			$smit = $pdo->prepare("UPDATE `profile`  SET `name`=? ,`phone`=?,`addr`=?,`age`=?,`job`=?,`first_date`=?,`sale_status`=? WHERE `id_name`='{$id_name}'");
+			$smit->execute([$name,$phone,$addr,$age,$job,$date,$pay]);
+			$json_array['msg']="success";
+			break;
 		
 		
 	}
